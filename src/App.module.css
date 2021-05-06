@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footerPara {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    text-align: center;
+}
+
+.footer {
+    background-color: grey !important;
+    color: white !important;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+    .image {
+        width: 100%;
+    }
+}

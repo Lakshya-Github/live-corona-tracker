@@ -1,0 +1,11 @@
+
+.formControl {
+    width: 30%;
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+}
+
+.mainHeading {
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
